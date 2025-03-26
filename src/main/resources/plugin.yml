@@ -1,0 +1,10 @@
+name: z64Help
+version: ${project.version}
+description: ${project.description}
+author: tbm00
+main: dev.tbm00.spigot.z64help.z64Help
+api-version: 1.17
+depend: []
+commands:
+  zzz:
+    description: Main command for z64Help

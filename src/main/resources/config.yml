@@ -1,0 +1,462 @@
+# z64Help v0.0.0-beta by @tbm00
+# https://github.com/tbm00/z64Help
+
+enabled: true
+
+lang:
+  prefix: "&8[&eMC64&8] &6"
+
+feature:
+  enabled: true
+
+##### randomitems: random tip items get put in GUI
+### can add unlimited tip items, but type must be applicable:
+### random item types:
+# "All" (NOT USABLE/DEFINABLE)
+# "Server" includes stuff about various warnings, server info, donations, etc. (Material: Bedrock)
+# "PVP" includes pvp, gangs, fights, arena, etc. (Material: Netherite Sword)
+# "Economy" includes shops, admin shops, jobs, quests, etc. (Material: Gold Ingot)
+# "Claims" includes land-claiming features/commands (Material: Gold Shovel)
+# "Misc" includes everything else: pets, warps, voting, custom images, etc. (Material: Paper)
+randomItems:
+  # --- SERVER (100-199) ---
+  '101':
+    enabled: true
+    type: "Server"
+    name: "&dTip: &6Donation Rewards"
+    mat: "DARK_OAK_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eHelp keep the server alive by donating.."
+      - "&eDonors get perks & keep us running!"
+      - "&6/donate"
+  '102':
+    enabled: true
+    type: "Server"
+    name: "&dTip: &6Discord"
+    mat: "DARK_OAK_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eJoin our Discord to stay updated & chat!"
+      - "&eUse &6/discord link&e to link your account"
+  '103':
+    enabled: true
+    type: "Server"
+    name: "&dTip: &6Multiple Worlds"
+    mat: "DARK_OAK_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eWe have Normal, AMPLIFIED, Custom & Earth biomes!"
+      - "&eUse &6/menu&e, &6/warp&e, or the portals at spawn"
+  '104':
+    enabled: true
+    type: "Server"
+    name: "&dTip: &6Reporting Issues"
+    mat: "DARK_OAK_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eHave any concerns? Create a private"
+      - "&esupport ticket with staff on &6/discord!"
+  '105':
+    enabled: true
+    type: "Server"
+    name: "&dTip: &6Cracked Accounts"
+    mat: "DARK_OAK_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eWe have cracked & premium players.."
+      - "&eBe careful who you trust!"
+  '107':
+    enabled: true
+    type: "Server"
+    name: "&dTip: &6Server Ranks"
+    mat: "DARK_OAK_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&6/Rankup&e as you play to unlock more jobs,"
+      - "&ecommands, and other perks!"
+  '108':
+    enabled: true
+    type: "Server"
+    name: "&dTip: &6Staff Support"
+    mat: "DARK_OAK_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eHave concerns or found a glitch?"
+      - "&eLet staff know via Discord!"
+  '109':
+    enabled: true
+    type: "Server"
+    name: "&dTip: &6Discord Extras"
+    mat: "DARK_OAK_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eJoin our Discord for support, polls,"
+      - "&eannouncements, & more. &6/discord"
+  '110':
+    enabled: true
+    type: "Server"
+    name: "&dTip: &6Donate for Perks"
+    mat: "DARK_OAK_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eRunning MC64 isnt free-- Your donations"
+      - "&ekeep the server alive and plugins maintained!"
+  # --- PVP (200-299) ---
+  '200':
+    enabled: true
+    type: "PVP"
+    name: "&dTip: &6KeepINV & PVP"
+    mat: "SPRUCE_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eKeepINV does not apply to PVP kills!"
+      - "&eStore money in &6/bank &eto secure it"
+  '201':
+    enabled: true
+    type: "PVP"
+    name: "&dTip: &6Toggle Your PVP"
+    mat: "SPRUCE_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eUse &6/togglepvp &eto disable your PVP status"
+      - "&eIt's re-enabled after you die and reconnect!"
+  '202':
+    enabled: true
+    type: "PVP"
+    name: "&dTip: &6Money Loss on Death"
+    mat: "SPRUCE_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eWhen killed in PVP, half your pocket balance drops!"
+      - "&eOthers can sell your head and redeem your money!"
+  '204':
+    enabled: true
+    type: "PVP"
+    name: "&dTip: &6Arena Fights"
+    mat: "SPRUCE_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eJoin &6/arena &efor keepINV battles. Good for"
+      - "&etesting gear or 1v1 duels without big losses"
+  '205':
+    enabled: true
+    type: "PVP"
+    name: "&dTip: &6Gang Up"
+    mat: "SPRUCE_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eCreate or join gangs with &6/gangs&e"
+  '206':
+    enabled: true
+    type: "PVP"
+    name: "&dTip: &6Bounty Commands"
+    mat: "SPRUCE_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eUse &6/bounty create &eto place a hit"
+      - "&eon a player!"
+  '207':
+    enabled: true
+    type: "PVP"
+    name: "&dTip: &6Killrecaps & Stats"
+    mat: "SPRUCE_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eUse &6/killrecaps &eto see your recent fights"
+      - "&eUse &6/stats <player> &eto view PVP records"
+  # --- ECONOMY (300-399) ---
+  '300':
+    enabled: true
+    type: "Economy"
+    name: "&dTip: &6Shops"
+    mat: "JUNGLE_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eUse &e/ds buy &6to open your own shop!"
+  '301':
+    enabled: true
+    type: "Economy"
+    name: "&dTip: &6Jobs & Quests"
+    mat: "JUNGLE_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eMake money joining &6/jobs&e or doing &6/quests"
+      - "&eYou can join more jobs as you rank up!"
+  '302':
+    enabled: true
+    type: "Economy"
+    name: "&dTip: &6Auction House"
+    mat: "JUNGLE_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eBuy & sell items across the server in &6/ah"
+      - "&eUse &6/ah sell #&e to auction off your item"
+  '303':
+    enabled: true
+    type: "Economy"
+    name: "&dTip: &6Bank Upgrades"
+    mat: "JUNGLE_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eThe bank can store & protect your money"
+      - "&eUse &6/bp&e to expand your bank capacity"
+  '304':
+    enabled: true
+    type: "Economy"
+    name: "&dTip: &6Interest & Bank"
+    mat: "JUNGLE_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eMoney stored in &6/bank&e earns interest!"
+  '305':
+    enabled: true
+    type: "Economy"
+    name: "&dTip: &6Shop Ads"
+    mat: "JUNGLE_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eUse &6/ds advertise&e to invite everyone"
+      - "&eto your shop location"
+  '306':
+    enabled: true
+    type: "Economy"
+    name: "&dTip: &6Quick Sells"
+    mat: "JUNGLE_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eUse &6/sellgui&e to quickly sell items in bulk"
+      - "&eGreat for big farms or resource dumps"
+  '308':
+    enabled: true
+    type: "Economy"
+    name: "&dTip: &6Shopping"
+    mat: "JUNGLE_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eUse &6/shop&e and &6/ah&e to buy & sell"
+      - "&eitems across the server!"
+  # --- CLAIMS (400-499) ---
+  '400':
+    enabled: true
+    type: "Claims"
+    name: "&dTip: &6Land Claims"
+    mat: "OAK_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eRight-click corners with a golden shovel"
+      - "&eClaims expire if the owner is offline 32+ days!"
+  '401':
+    enabled: true
+    type: "Claims"
+    name: "&dTip: &6Visualize Claims"
+    mat: "OAK_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eUse a stick to see claim borders around you!"
+      - "&eUse &6/claimflags&e & &6/claiminfo&e to edit them"
+  '402':
+    enabled: true
+    type: "Claims"
+    name: "&dTip: &6Granting Trust"
+    mat: "OAK_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&6/trust <player> &eto share your claim access"
+      - "&eUse &6/trustlist&e or &6/untrust&e as needed"
+  '405':
+    enabled: true
+    type: "Claims"
+    name: "&dTip: &6Subdivisions"
+    mat: "OAK_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eUse &6/gd mode subdivide&e to create smaller"
+      - "&eregions inside a big claim"
+  '406':
+    enabled: true
+    type: "Claims"
+    name: "&dTip: &6Cuboid Claims"
+    mat: "OAK_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eYou can make 3D claims with &6/cuboid"
+  '407':
+    enabled: true
+    type: "Claims"
+    name: "&dTip: &6Flags & Permissions"
+    mat: "OAK_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eUse &6/claimflags & &6/claiminfo &eto set rules"
+      - "&eTrust others with &6/trust <player> <type>"
+  '409':
+    enabled: true
+    type: "Claims"
+    name: "&dTip: &6Resizing Claims"
+    mat: "OAK_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eRight-click a current corner with shovel,"
+      - "&ethen right-click a new corner spot"
+  # --- MISC (500-599) ---
+  '500':
+    enabled: true
+    type: "Misc"
+    name: "&dTip: &6Warp GUI"
+    mat: "BIRCH_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eUse &6/warp&e to open a GUI of public warps"
+      - "&eYou can also create your own with &6/warp set"
+  '501':
+    enabled: true
+    type: "Misc"
+    name: "&dTip: &6Voting Rewards"
+    mat: "BIRCH_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eHelp the server grow by voting daily!"
+      - "&eEarn crate keys plus bonus prizes"
+  '502':
+    enabled: true
+    type: "Misc"
+    name: "&dTip: &6Pets"
+    mat: "BIRCH_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eHit a tame mob with a lead to claim it"
+      - "&eManage with &6/pets&e & &6/help pets"
+  '503':
+    enabled: true
+    type: "Misc"
+    name: "&dTip: &6Custom Images"
+    mat: "BIRCH_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eUse &6/imageframe&e to add images from a URL!"
+      - "&eUse &6/if overlay <map> <url>&e to add images"
+  '504':
+    enabled: true
+    type: "Misc"
+    name: "&dTip: &6Sitting & Laying"
+    mat: "BIRCH_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eUse &6/sit&e, &6/lay&e, or &6/crawl&e to chill in style!"
+  '505':
+    enabled: true
+    type: "Misc"
+    name: "&dTip: &6Interactive Chat"
+    mat: "BIRCH_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eType these placeholders in chat to share your stats:"
+      - "&e[inv], [ender], [xyz], [pocket], [bank], or [playtime]"
+  '506':
+    enabled: true
+    type: "Misc"
+    name: "&dTip: &6Resource Pack"
+    mat: "BIRCH_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eOur resource &6/pack &eis required to"
+      - "&esee our custom mobs"
+  '507':
+    enabled: true
+    type: "Misc"
+    name: "&dTip: &6Daily Quests"
+    mat: "BIRCH_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eComplete daily &6/quests&e for crate keys!"
+  '508':
+    enabled: true
+    type: "Misc"
+    name: "&dTip: &6Toggle GUI"
+    mat: "BIRCH_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eUse &6/toggle &eto manage VeinMiner, AutoPickup,"
+      - "&eChestSort, scoreboard, & more!"
+  '509':
+    enabled: true
+    type: "Misc"
+    name: "&dTip: &6Resource Worlds"
+    mat: "BIRCH_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eVeinMiner is unlocked at rank 14. Use it"
+      - "&ein resource worlds to gather faster"
+  '510':
+    enabled: true
+    type: "Misc"
+    name: "&dTip: &6Void City Plots"
+    mat: "BIRCH_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eGet a free plot at &6/VoidCity&e. Build farms,"
+      - "&eshops, or just a creative hideout!"
+  '511':
+    enabled: true
+    type: "Misc"
+    name: "&dTip: &6TP Commands"
+    mat: "BIRCH_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eUse &6/back&e to return to your previous spot"
+      - "&eUse &6/tpa <player>&e to make a TP request"
+      - "&eUse &6/warp&e to find player warps"
+  '512':
+    enabled: true
+    type: "Misc"
+    name: "&dTip: &6Daily Boss Events"
+    mat: "BIRCH_SIGN"
+    glowing: true
+    lore:
+      - "&8-----------------------"
+      - "&eAfter a vote party, head to &6/abyss &eto fight"
+      - "&ea boss mob for special loot!"
