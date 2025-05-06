@@ -4,6 +4,7 @@ import org.bukkit.ChatColor;
 import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import dev.tbm00.spigot.z64help.command.HeadCmd;
 import dev.tbm00.spigot.z64help.command.HelpCmd;
 
 public class z64Help extends JavaPlugin {
@@ -25,8 +26,9 @@ public class z64Help extends JavaPlugin {
 
             if (configHandler.isFeatureEnabled()) {
                 
-                // Register Command
+                // Register Commands
                 getCommand("zzz").setExecutor(new HelpCmd(this));
+                getCommand("sellhead").setExecutor(new HeadCmd());
             }
                 
         }

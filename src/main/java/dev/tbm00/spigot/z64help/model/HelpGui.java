@@ -310,7 +310,7 @@ public class HelpGui {
         lore.add("");
         lore.add("&cKeepINV &o(rank 15+)&r&c does not apply to PVP deaths!");
         lore.add("");
-        lore.add("&cWhen you die without KeepINV, you drop half");
+        lore.add("&cWhen you die without KeepINV, you drop 25% of");
         lore.add("&cyour pocket balance... Store money in /bank!");
         lore.add("");
         lore.add("  &7/togglepvp");

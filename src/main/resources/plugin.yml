@@ -8,3 +8,5 @@ depend: []
 commands:
   zzz:
     description: Main command for z64Help
+  sellhead:
+    description: Command for sellhead
