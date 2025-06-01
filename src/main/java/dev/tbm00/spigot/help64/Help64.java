@@ -1,13 +1,13 @@
-package dev.tbm00.spigot.z64help;
+package dev.tbm00.spigot.help64;
 
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import dev.tbm00.spigot.z64help.command.HeadCmd;
-import dev.tbm00.spigot.z64help.command.HelpCmd;
+import dev.tbm00.spigot.help64.command.HeadCmd;
+import dev.tbm00.spigot.help64.command.HelpCmd;
 
-public class z64Help extends JavaPlugin {
+public class Help64 extends JavaPlugin {
     private ConfigHandler configHandler;
 
     @Override
@@ -50,7 +50,7 @@ public class z64Help extends JavaPlugin {
      */
     @Override
     public void onDisable() {
-        log(ChatColor.RED, "z64Help disabled..!");
+        log(ChatColor.RED, "Help64 disabled..!");
     }
 
     /**
@@ -61,7 +61,7 @@ public class z64Help extends JavaPlugin {
      */
     public void log(ChatColor chatColor, String... strings) {
 		for (String s : strings)
-            getServer().getConsoleSender().sendMessage("[z64Help] " + chatColor + s);
+            getServer().getConsoleSender().sendMessage("[Help64] " + chatColor + s);
 	}
 
 }

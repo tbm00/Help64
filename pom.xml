@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>dev.tbm00</groupId>
-    <artifactId>z64Help</artifactId>
+    <artifactId>Help64</artifactId>
     <version>0.1.0-beta</version>
     <packaging>jar</packaging>
 
-    <name>z64Help</name>
+    <name>Help64</name>
 
     <description>This checks players perms then runs commands</description>
     <properties>

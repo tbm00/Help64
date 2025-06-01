@@ -1,12 +1,12 @@
-name: z64Help
+name: Help64
 version: ${project.version}
 description: ${project.description}
 author: tbm00
-main: dev.tbm00.spigot.z64help.z64Help
+main: dev.tbm00.spigot.help64.Help64
 api-version: 1.17
 depend: []
 commands:
   zzz:
-    description: Main command for z64Help
+    description: Main command for Help64
   sellhead:
     description: Command for sellhead

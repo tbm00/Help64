@@ -1,4 +1,4 @@
-package dev.tbm00.spigot.z64help.model;
+package dev.tbm00.spigot.help64.model;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -18,10 +18,10 @@ import org.bukkit.ChatColor;
 import dev.triumphteam.gui.builder.item.ItemBuilder;
 import dev.triumphteam.gui.guis.Gui;
 
-import dev.tbm00.spigot.z64help.z64Help;
+import dev.tbm00.spigot.help64.Help64;
 
 public class HelpGui {
-    private z64Help javaPlugin;
+    private Help64 javaPlugin;
     private Gui gui;
     private String label;
     private Player player;
@@ -29,7 +29,7 @@ public class HelpGui {
     public final static String[] FILTER_TYPES = {"All","Server","PVP","Economy","Claims","Misc"};
     private Set<String> usedTipTitles = new HashSet<>();
     
-    public HelpGui(z64Help javaPlugin, Player player, int filterIndex) {
+    public HelpGui(Help64 javaPlugin, Player player, int filterIndex) {
         this.player = player;
         this.javaPlugin = javaPlugin;
         label = "MC64 Help Menu";

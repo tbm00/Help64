@@ -1,4 +1,4 @@
-package dev.tbm00.spigot.z64help;
+package dev.tbm00.spigot.help64;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,10 +7,10 @@ import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.configuration.ConfigurationSection;
 
-import dev.tbm00.spigot.z64help.model.ItemEntry;
+import dev.tbm00.spigot.help64.model.ItemEntry;
 
 public class ConfigHandler {
-    private final z64Help javaPlugin;
+    private final Help64 javaPlugin;
     private String chatPrefix;
     private boolean featureEnabled = false;
     private final List<ItemEntry> randomItems = new ArrayList<>();
@@ -20,7 +20,7 @@ public class ConfigHandler {
      *
      * @param javaPlugin the main plugin instance
      */
-    public ConfigHandler(z64Help javaPlugin) {
+    public ConfigHandler(Help64 javaPlugin) {
         this.javaPlugin = javaPlugin;
         try {
             loadLanguageSection();

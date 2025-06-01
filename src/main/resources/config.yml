@@ -1,5 +1,5 @@
-# z64Help v0.1.0-beta by @tbm00
-# https://github.com/tbm00/z64Help
+# Help64 v0.1.0-beta by @tbm00
+# https://github.com/tbm00/Help64
 
 enabled: true
 
@@ -120,7 +120,8 @@ randomItems:
     glowing: true
     lore:
       - "&8-----------------------"
-      - "&eKeepINV does not apply to PVP kills!"
+      - "&eKeepINV &o(rank 15+)&r&e does not apply to PVP kills!"
+      - "&e(BUT IT IS ALWAYS APPLIED IN OUR PVP /ARENAs)"
       - "&eStore money in &6/bank &eto secure it"
   '201':
     enabled: true
@@ -140,7 +141,7 @@ randomItems:
     glowing: true
     lore:
       - "&8-----------------------"
-      - "&eWhen killed in PVP, half your pocket balance drops!"
+      - "&eWhen killed in PVP, 25% of your pocket balance drops!"
       - "&eOthers can sell your head and redeem your money!"
   '204':
     enabled: true
@@ -150,7 +151,7 @@ randomItems:
     glowing: true
     lore:
       - "&8-----------------------"
-      - "&eJoin &6/arena &efor keepINV battles. Good for"
+      - "&eJoin &6/arena &efor KeepINV battles. Good for"
       - "&etesting gear or 1v1 duels without big losses"
   '205':
     enabled: true
@@ -190,7 +191,7 @@ randomItems:
     glowing: true
     lore:
       - "&8-----------------------"
-      - "&eUse &e/ds buy &6to open your own shop!"
+      - "&eUse &e/shop buy &6to open your own shop!"
   '301':
     enabled: true
     type: "Economy"
@@ -238,7 +239,7 @@ randomItems:
     glowing: true
     lore:
       - "&8-----------------------"
-      - "&eUse &6/ds advertise&e to invite everyone"
+      - "&eUse &6/shop advertise&e to invite everyone"
       - "&eto your shop location"
   '306':
     enabled: true
@@ -249,7 +250,6 @@ randomItems:
     lore:
       - "&8-----------------------"
       - "&eUse &6/sellgui&e to quickly sell items in bulk"
-      - "&eGreat for big farms or resource dumps"
   '308':
     enabled: true
     type: "Economy"

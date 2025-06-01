@@ -1,4 +1,4 @@
-package dev.tbm00.spigot.z64help.model;
+package dev.tbm00.spigot.help64.model;
 
 import java.util.List;
 

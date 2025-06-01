@@ -1,23 +1,16 @@
 
 
-package dev.tbm00.spigot.z64help.command;
+package dev.tbm00.spigot.help64.command;
 
 import java.util.List;
 
+import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.TabExecutor;
 import org.bukkit.entity.Player;
 
-import dev.tbm00.spigot.z64help.z64Help;
-import dev.tbm00.spigot.z64help.model.HelpGui;
-
-public class HelpCmd implements TabExecutor {
-    private final z64Help javaPlugin;
-
-    public HelpCmd(z64Help javaPlugin) {
-        this.javaPlugin = javaPlugin;
-    }
+public class HeadCmd implements TabExecutor {
 
     /**
      * Handles the help command.
@@ -36,14 +29,13 @@ public class HelpCmd implements TabExecutor {
     }
 
     /**
-     * Handles the base command for opening help menu.
+     * Handles the base command for running sellhead.
      * 
      * @param sender the command sender
-     * @param args the arguments passed to the command
-     * @return true if command was processed successfully, false otherwise
+     * @return true after command was processed
      */
     private boolean handleBaseCommand(CommandSender sender) {
-        new HelpGui(javaPlugin, (Player) sender, 0);
+        Bukkit.dispatchCommand(sender, "sellhead");
         return true;
     }
 
